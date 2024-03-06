@@ -1,0 +1,73 @@
+/* ? RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 ~ h2  {
+    color: magenta;
+}
+
+section{
+    background-color: cyan;
+    border: 3px solid magenta;
+    margin-bottom: 2rem;
+}
+
+section h2.font-strike.yellow{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: goldenrod;
+}
+
+section[data-125-class="si"]{
+    background-color: red;
+}
+
+input[type="text"]{
+    background-color: yellow;
+    padding: 3rem;
+}
+
+input[type]:focus{
+    padding: 3rem;
+}
+
+
+li:hover {
+    text-decoration: underline;
+    color: lime;
+    background-color: blueviolet;
+ }
+
+h2:active{
+    font-size: 1rem;
+}
+
+
+ul li:nth-child(even){
+    background-color: rgb(231, 231, 231);
+ }
+
+ul li:first-child {
+    background-color: cyan;
+ }
+
+ ul li:last-child {
+    background-color: chartreuse;
+ }
+
+li:nth-child(3n + 1),
+li:nth-child(3n + 2){
+    color: blue;
+}
+
+
+h2::before{
+    content: '||';
+}
+
+h2::after{
+    content: '|';
+}
